@@ -1,0 +1,17 @@
+/* ==========================================================
+   wireframe.css - Estilos do wireframe.html
+   ========================================================== */
+
+body { font-family: "Comic Sans MS", cursive, sans-serif; background: #fff; padding: 40px; color: #333; }
+.tela { width: 520px; margin: 0 auto; border: 2px solid #333; padding: 20px; }
+.titulo { font-size: 1.1rem; margin-bottom: 14px; }
+.linha-input { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; }
+.input { flex: 1; height: 34px; border: 2px solid #333; }
+.circulo { width: 34px; height: 34px; border: 2px solid #333; border-radius: 50%; text-align: center; line-height: 30px; font-weight: bold; }
+.filtros { font-size: .85rem; margin-bottom: 14px; letter-spacing: .5px; }
+.filtros b { text-decoration: underline; }
+.item { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #999; }
+.box { width: 18px; height: 18px; border: 2px solid #333; text-align: center; line-height: 14px; font-size: .8rem; }
+.txt { flex: 1; }
+.item.ok .txt { color: #999; text-decoration: line-through; }
+.nota { font-size: .75rem; color: #c00; margin-top: 16px; }
